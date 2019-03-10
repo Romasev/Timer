@@ -1,0 +1,58 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: "Roboto Slab";
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/main_bg.jpg);
+  background-position: 50% 30%;
+}
+
+.content .timer {
+  text-align: left;
+  position: absolute;
+  left: 50%;
+  margin-left: -215px;
+  top: 50%;
+  margin-top: -141px;
+}
+.content .timer-title {
+  font-size: 36px;
+  color: #c78030;
+}
+.content .timer-action {
+  font-size: 24px;
+  color: #fff;
+  margin-top: 40px;
+}
+.content .timer-numbers {
+  margin-top: 40px;
+  font-size: 90px;
+  color: #c78030;
+}
+.content .timer-numbers:after {
+  content: '';
+  display: block;
+  width: 20%;
+  height: 1px;
+  background-color: #c78030;
+  margin: 0 auto;
+  margin-top: 4px;
+}
